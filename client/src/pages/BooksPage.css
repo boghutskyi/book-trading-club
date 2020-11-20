@@ -1,0 +1,98 @@
+.books-list {
+    list-style-type: none;
+    margin-top: 21px;
+}
+.list-item {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 11px;
+    border-radius: 13px;
+    overflow: hidden;
+    padding-right: 13px;
+    box-shadow: -6px -6px 11px #3B3B3B, 6px 6px 11px #2B2B2B;
+}
+.item-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 51px;
+}
+.item-info, .item-options {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 490px;
+}
+.info-title {
+    font-size: 24px;
+}
+.info-subtitle {
+    font-size: 14px;
+}
+.info-owner {
+    font-weight: bold;
+    font-size: 11px;
+}
+.info-owner a {
+    color: #2F80ED;
+    text-decoration: none;
+}
+.info-owner a:hover {
+    text-decoration: underline;
+}
+.info-owner-login, .options-requestors-login {
+    color: #2F80ED;
+}
+.item-options {
+    align-items: flex-end;
+}
+.options-request {
+    display: flex;
+    font-size: 14px;
+    color: #2F80ED;
+}
+.options-request a {
+    color: #2F80ED;
+    text-decoration: none;
+}
+.options-request a:hover {
+    text-decoration: underline;
+}
+.options-request-cont {
+    margin-left: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 21px;
+    height: 21px;
+    border-radius: 100%;
+    background: #2F80ED;
+}
+.options-requestors {
+    font-size: 11px;
+}
+.options-requestors a {
+    text-decoration: none;
+    color: #2F80ED;
+}
+.options-requestors a:hover {
+    text-decoration: underline;
+}
+.options-delete {
+    text-decoration: none;
+    font-size: 14px;
+    color: #EB5757;
+    cursor: pointer;
+}
+.options-delete:hover {
+    text-decoration: underline;
+}
+.select {
+    background: #27AE60;
+}
+.select-own {
+    background: #F2C94C;
+}

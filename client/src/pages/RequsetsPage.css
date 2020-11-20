@@ -1,0 +1,71 @@
+.request-list {
+    list-style-type: none;
+}
+.request-list-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 21px;
+}
+.request-give-section {
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+}
+.request-give-section-btn {
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.request-list-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.request-list-header a {
+    color: #2F80ED;
+    text-decoration: none;
+}
+.request-list-header a:hover {
+    text-decoration: underline;
+}
+.request-cancel {
+    color: #F2C94C;
+    cursor: pointer;
+}
+.request-cancel:hover {
+    text-decoration: underline;
+}
+.request-accept {
+    color: #27AE60;
+    cursor: pointer;
+}
+.request-accept:hover {
+    text-decoration: underline;
+}
+.request-list-book {
+    list-style-type: none;
+}
+.request-decline {
+    color: #EB5757;
+    cursor: pointer;
+}
+.request-decline:hover {
+    text-decoration: underline;
+}
+.request-book {
+    height: 80px;
+    background: #333333;
+    box-shadow: -6px -6px 11px #3B3B3B, 6px 6px 11px #2B2B2B;
+    border-radius: 13px;
+    padding: 12px;
+    margin-top: 11px;
+}
+.request-book-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+.request-book-subtitle {
+    font-size: 14px;
+}

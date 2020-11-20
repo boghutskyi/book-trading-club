@@ -1,0 +1,5 @@
+{
+    "port": 5000,
+    "jwtSecret": "book-trading-club",
+    "mongoUri": "mongodb+srv://andrii:12345@cluster0.kdfgv.mongodb.net/book-trading?retryWrites=true&w=majority"
+}
